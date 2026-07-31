@@ -89,7 +89,6 @@ The following regression algorithms were trained and evaluated:
 * Linear Regression
 * Decision Tree Regressor
 * Random Forest Regressor
-* Gradient Boosting Regressor
 * K-Nearest Neighbors Regressor
 * Support Vector Regressor (SVR)
 * XGBoost Regressor
@@ -100,10 +99,9 @@ The following regression algorithms were trained and evaluated:
 
 | Model                     | Performance       |
 | ------------------------- | ----------------- |
-| XGBoost Regressor (Tuned) | ⭐ Best Model      |
+| XGBoost Regressor (Tuned) | ⭐ Best Model     |
 | Random Forest Regressor   | Excellent         |
 | Decision Tree Regressor   | Good              |
-| Gradient Boosting         | Moderate          |
 | Linear Regression         | Baseline          |
 | KNN                       | Lower Performance |
 | SVR                       | Lower Performance |
@@ -144,25 +142,6 @@ The most influential features identified by the model were:
 7. Week of Year
 8. Region
 9. Weather Condition
-
----
-
-# 📁 Project Structure
-
-```
-Demand-Forecasting/
-│
-├── data/
-│   ├── Raw_Dataset.csv
-│   └── Cleaned_Dataset.csv
-│
-├── models/
-│   ├── xgboost_demand_forecasting.pkl
-│   └── feature_names.pkl
-│
-├── notebook.ipynb
-├── README.md
-```
 
 ---
 
